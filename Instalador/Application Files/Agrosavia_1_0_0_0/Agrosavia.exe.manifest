@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Agrosavia.exe" version="1.0.0.0" publicKeyToken="692e5e1ccfb3c4f3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Agrosavia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Agrosavia.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Agrosavia.exe" size="80312">
+      <assemblyIdentity name="Agrosavia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MLDs8W3igYDjEjafx0DOGbtpWMPEzyx81ohLezqhm7k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="4003208">
+      <assemblyIdentity name="Guna.UI2" version="2.0.3.5" publicKeyToken="4015E4865BDA28A4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VhNoJjVhfNQ3IIB0SPabEAkJMuhXGjWLkjYdKix6RZc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Agrosavia.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=VIVOBOOK\gabri" issuerKeyHash="68466a54a3850151bd622cc211644c931716a222" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>m8pJAhArFgE+HWJoOUMHDtPKNy3jYw2VrSr4vHeC9BU=</DigestValue></Reference></SignedInfo><SignatureValue>N8A2qqUOj9znUTrrbtVFti2WE6ZcBTOcaPSqjEF5xHxA8ZMDF4dk88eCt4x9zY+VfI20/l1CaIvUgbvzg7YkOEqx72jIC45GpCDM0O4entigx8ejCzSpWhHUNdQy8zDQBvvkejCy5n7eIF0FYlWJJLONoAO14Sk87hJ58NHcGPU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1Sy/zfSFwCEvNt0vdF9m5W7IfgqAU4XdGFdv7EfRcJxvnCyG/Lzdv3McSAwP3F1y/QhcvKZiTBAQLRqtWrG566oVrxWwH8oj9Jtm1MBYHNqW7vvLKlFYluoYcDrfGllhpCnUOKjZyZk2ziNeQX2RtaGSwoWXfGYgTOcmHj2NfbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="15f48277bcf82aad950d63e32d37cad30e07433968621d3e01162b100249ca9b" Description="" Url=""><as:assemblyIdentity name="Agrosavia.exe" version="1.0.0.0" publicKeyToken="692e5e1ccfb3c4f3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=VIVOBOOK\gabri</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/jA5UQcVVCsVEqg7LRndKTfZzizQfq9BzmJnJ2Q60Ds=</DigestValue></Reference></SignedInfo><SignatureValue>iRYMve0ctCn+9Bf1NxBddj8d+IXdpW9i55VoKpiLQmiIDXjqWGAKKG0mr7j9t+qxKYYEi4Yh20tcX+OnXsCug/GGG5wD2Ds5zdw9crBsmDhoP2/SdXf2CVg20qxexzw8tiVcD76AwUkNPCOMhofx7ml0gqh+dPadRAIloACGipc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1Sy/zfSFwCEvNt0vdF9m5W7IfgqAU4XdGFdv7EfRcJxvnCyG/Lzdv3McSAwP3F1y/QhcvKZiTBAQLRqtWrG566oVrxWwH8oj9Jtm1MBYHNqW7vvLKlFYluoYcDrfGllhpCnUOKjZyZk2ziNeQX2RtaGSwoWXfGYgTOcmHj2NfbU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQH1UrAqfmyKROwvCFcHG4cDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAVgBJAFYATwBCAE8ATwBLAFwAZwBhAGIAcgBpMB4XDTIyMTIwMjE1MTkwOVoXDTIzMTIwMjIxMTkwOVowJzElMCMGA1UEAx4cAFYASQBWAE8AQgBPAE8ASwBcAGcAYQBiAHIAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1Sy/zfSFwCEvNt0vdF9m5W7IfgqAU4XdGFdv7EfRcJxvnCyG/Lzdv3McSAwP3F1y/QhcvKZiTBAQLRqtWrG566oVrxWwH8oj9Jtm1MBYHNqW7vvLKlFYluoYcDrfGllhpCnUOKjZyZk2ziNeQX2RtaGSwoWXfGYgTOcmHj2NfbUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCGvFu/JNLW6immk98ivB8SG0uHni3A9ljSkez+91RieZxVxXPxJsLz+6pWE4S/imQQEuGl2n8jBxbPx534wM7cN3UzkfsQOXfqjOpp+Nt2R8XjYSIdIhLYmE3P0eg5nQmPq36Q+GZYHl9QVXCUklNGw3CKCBt6X+odPXB/iCQe6g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
